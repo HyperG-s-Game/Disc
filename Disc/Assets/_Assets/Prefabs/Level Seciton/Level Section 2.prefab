@@ -28,8 +28,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 961723949722516611}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.12723923, y: 3.5070965, z: 26.63}
-  m_LocalScale: {x: 9.17503, y: 7.8173, z: 1}
+  m_LocalPosition: {x: 0.12723923, y: 3.5071, z: 26.63}
+  m_LocalScale: {x: 11.333914, y: 12.881347, z: 1}
   m_Children: []
   m_Father: {fileID: 7444743183424790986}
   m_RootOrder: 2
@@ -152,6 +152,7 @@ GameObject:
   - component: {fileID: 7444743182897106067}
   - component: {fileID: 7444743182897106068}
   - component: {fileID: 7444743182897106069}
+  - component: {fileID: 587016077556224425}
   m_Layer: 7
   m_Name: ev 2
   m_TagString: Untagged
@@ -874,6 +875,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!114 &587016077556224425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7444743182897106070}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 978e00c21dd821b44a1a89073ffaaac7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &7444743183424790987
 GameObject:
   m_ObjectHideFlags: 0
@@ -922,3 +935,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lifeTime: 1000
   newObstacleSpawnPoint: {fileID: 5476332884597705583}
+  offset: {x: 0, y: 0, z: 0}

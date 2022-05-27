@@ -5,8 +5,11 @@ using System.Collections.Generic;
 public class LeveDistroyer : MonoBehaviour {
     
     [SerializeField] private LevelVariations varitions;
+
+    
     private void OnTriggerEnter(Collider coli){
         if(coli.GetComponent<PlayerCollision>() != null){
+            LevelManager.current.InvokeSpawnNewSection();
             varitions.DestroyNow();
         }
     }

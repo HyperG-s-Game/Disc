@@ -6,8 +6,11 @@ public class LevelVariations : MonoBehaviour ,IPooledObject {
     
     [SerializeField] private float lifeTime = 5f;
     [SerializeField] private Transform newObstacleSpawnPoint;
-
-
+    [SerializeField] private Vector3 offset;
+    [ContextMenu("Set Up")]
+    public void SetUpNewObstaclePoint(){
+        newObstacleSpawnPoint.position = offset;
+    }
     public Transform GetNextObstacleSpawnPoint(){
         return newObstacleSpawnPoint;
     }
