@@ -1,55 +1,44 @@
 using UnityEngine;
-using System.Collections;
-using System.Collections.Generic;
-
-
 public class PlayerInput : MonoBehaviour {
-    
-    [SerializeField] private bool InputEnable,onPc;
-    
+    [SerializeField] private Joystick joyStick;
+    [SerializeField] private bool inputEnable = true,onPc = true;
 
-
-
-    
+    private void Start(){
+        #if UNITY_EDITOR
+            onPc = true;
+        #else
+            onPc = false;
+        #endif
+    }
     public float GetSideWaysInput(){
         
         float horizontalAmount = 0f;
-        if(InputEnable){
+        if(inputEnable){
             if(onPc){
                 horizontalAmount = Input.GetAxis("Horizontal");
             }else{
-                if(Input.touchCount > 0){
-                    Touch touch = Input.GetTouch(0);
-                    if(touch.phase == TouchPhase.Moved){
-                        horizontalAmount = touch.deltaPosition.x;
-                    }
-                }
+                horizontalAmount = joyStick.Horizontal;
             }
         }
         return horizontalAmount;
     }
     public float GetForwardInput(){
         float verticalAmount = 0f;
-        if(InputEnable){
+        if(inputEnable){
             if(onPc){
                 verticalAmount = Input.GetAxis("Vertical");
             }else{
-                if(Input.touchCount > 0){
-                    Touch touch = Input.GetTouch(0);
-                    if(touch.phase == TouchPhase.Moved){
-                        verticalAmount = touch.deltaPosition.y;
-                    }
-                }
+                verticalAmount = joyStick.Vertical;
             }
         }
         return verticalAmount;
     }
 
     public void ToggleInput(bool value){
-        InputEnable = value;
+        inputEnable = value;
     }
     public bool IsInputAvailable(){
-        return InputEnable;
+        return inputEnable;
     }
     
 }

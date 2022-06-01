@@ -1,0 +1,127 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    xmlns:tools="http://schemas.android.com/tools"
+4    package="com.unity3d.player"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml
+11
+12    <uses-feature android:glEsVersion="0x00030000" />
+12-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:3-52
+12-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:21:17-49
+13    <uses-feature
+13-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:3-91
+14        android:name="android.hardware.vulkan.version"
+14-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:17-63
+15        android:required="false" />
+15-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:22:64-88
+16    <uses-feature
+16-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:3-88
+17        android:name="android.hardware.touchscreen"
+17-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:17-60
+18        android:required="false" />
+18-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:23:61-85
+19    <uses-feature
+19-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:3-99
+20        android:name="android.hardware.touchscreen.multitouch"
+20-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:17-71
+21        android:required="false" />
+21-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:24:72-96
+22    <uses-feature
+22-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:3-108
+23        android:name="android.hardware.touchscreen.multitouch.distinct"
+23-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:17-80
+24        android:required="false" />
+24-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:25:81-105
+25
+26    <application
+26-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:3-20:17
+27        android:extractNativeLibs="true"
+27-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:49-81
+28        android:icon="@mipmap/app_icon"
+28-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:82-113
+29        android:label="@string/app_name" >
+29-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:3:16-48
+30
+31        <!--
+32         The MessagingUnityPlayerActivity is a class that extends
+33         UnityPlayerActivity to work around a known issue when receiving
+34         notification data payloads in the background.
+35        -->
+36        <activity
+36-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:5-13:16
+37            android:name="com.google.firebase.MessagingUnityPlayerActivity"
+37-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:15-78
+38            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+38-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:148-329
+39            android:exported="true"
+39-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:401-424
+40            android:hardwareAccelerated="false"
+40-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:365-400
+41            android:launchMode="singleTask"
+41-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:116-147
+42            android:resizeableActivity="false"
+42-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:330-364
+43            android:screenOrientation="portrait" >
+43-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:7:79-115
+44            <intent-filter>
+44-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:8:7-11:23
+45                <action android:name="android.intent.action.MAIN" />
+45-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:9-61
+45-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:9:17-58
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:9-69
+47-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:10:19-66
+48            </intent-filter>
+49
+50            <meta-data
+50-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:7-82
+51                android:name="unityplayer.UnityActivity"
+51-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:18-58
+52                android:value="true" />
+52-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:12:59-79
+53        </activity>
+54
+55        <service
+55-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:5-15:15
+56            android:name="com.google.firebase.messaging.MessageForwardingService"
+56-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:14-83
+57            android:exported="false"
+57-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:141-165
+58            android:permission="android.permission.BIND_JOB_SERVICE" >
+58-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:14:84-140
+59        </service>
+60
+61        <meta-data
+61-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:5-69
+62            android:name="unity.splash-mode"
+62-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:16-48
+63            android:value="0" />
+63-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:16:49-66
+64        <meta-data
+64-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:5-74
+65            android:name="unity.splash-enable"
+65-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:16-50
+66            android:value="True" />
+66-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:17:51-71
+67        <meta-data
+67-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:5-78
+68            android:name="unity.launch-fullscreen"
+68-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:16-54
+69            android:value="True" />
+69-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:18:55-75
+70        <meta-data
+70-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:5-84
+71            android:name="unity.allow-resizable-window"
+71-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:16-59
+72            android:value="False" />
+72-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\src\main\AndroidManifest.xml:19:60-81
+73    </application>
+74
+75</manifest>

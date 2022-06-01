@@ -1,0 +1,347 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.PlayResume.TheDisc"
+4    android:installLocation="preferExternal"
+5    android:versionCode="1"
+6    android:versionName="0.1" >
+7
+8    <uses-sdk
+9        android:minSdkVersion="22"
+9-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+10        android:targetSdkVersion="32" />
+10-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml
+11
+12    <supports-screens
+12-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:3-163
+13        android:anyDensity="true"
+13-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:135-160
+14        android:largeScreens="true"
+14-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:78-105
+15        android:normalScreens="true"
+15-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:49-77
+16        android:smallScreens="true"
+16-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:21-48
+17        android:xlargeScreens="true" />
+17-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:3:106-134
+18
+19    <uses-feature android:glEsVersion="0x00030000" />
+19-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:5-54
+19-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:12:19-51
+20    <uses-feature
+20-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:13:5-15:36
+21        android:name="android.hardware.vulkan.version"
+21-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:14:9-55
+22        android:required="false" />
+22-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:15:9-33
+23    <uses-feature
+23-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:16:5-18:36
+24        android:name="android.hardware.touchscreen"
+24-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:17:9-52
+25        android:required="false" />
+25-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:18:9-33
+26    <uses-feature
+26-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:19:5-21:36
+27        android:name="android.hardware.touchscreen.multitouch"
+27-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:20:9-63
+28        android:required="false" />
+28-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:21:9-33
+29    <uses-feature
+29-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:22:5-24:36
+30        android:name="android.hardware.touchscreen.multitouch.distinct"
+30-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:23:9-72
+31        android:required="false" />
+31-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:24:9-33
+32
+33    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+33-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:25:5-79
+33-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:25:22-76
+34    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+34-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:26:5-68
+34-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:26:22-65
+35    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+35-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:28:5-82
+35-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:28:22-79
+36
+37    <permission
+37-->[:com.google.firebase.firebase-messaging-unity-8.10.1:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\0a52055a3836f172d0b5ffe1e24061bc\com.google.firebase.firebase-messaging-unity-8.10.1\AndroidManifest.xml:6:3-114
+38        android:name="com.PlayResume.TheDisc.permission.C2D_MESSAGE"
+38-->[:com.google.firebase.firebase-messaging-unity-8.10.1:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\0a52055a3836f172d0b5ffe1e24061bc\com.google.firebase.firebase-messaging-unity-8.10.1\AndroidManifest.xml:6:15-75
+39        android:protectionLevel="signature" />
+39-->[:com.google.firebase.firebase-messaging-unity-8.10.1:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\0a52055a3836f172d0b5ffe1e24061bc\com.google.firebase.firebase-messaging-unity-8.10.1\AndroidManifest.xml:6:76-111
+40
+41    <uses-permission android:name="com.PlayResume.TheDisc.permission.C2D_MESSAGE" /> <!-- Required permission for App measurement to run. -->
+41-->[:com.google.firebase.firebase-messaging-unity-8.10.1:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\0a52055a3836f172d0b5ffe1e24061bc\com.google.firebase.firebase-messaging-unity-8.10.1\AndroidManifest.xml:7:3-83
+41-->[:com.google.firebase.firebase-messaging-unity-8.10.1:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\0a52055a3836f172d0b5ffe1e24061bc\com.google.firebase.firebase-messaging-unity-8.10.1\AndroidManifest.xml:7:20-80
+42    <uses-permission android:name="android.permission.INTERNET" />
+42-->[:com.google.android.gms.play-services-measurement-sdk-api-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ccfbeb49b48775c04399190534146ee9\com.google.android.gms.play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:23:5-67
+42-->[:com.google.android.gms.play-services-measurement-sdk-api-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ccfbeb49b48775c04399190534146ee9\com.google.android.gms.play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:23:22-64
+43    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+43-->[:com.google.android.gms.play-services-measurement-sdk-api-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ccfbeb49b48775c04399190534146ee9\com.google.android.gms.play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:26:5-79
+43-->[:com.google.android.gms.play-services-measurement-sdk-api-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\ccfbeb49b48775c04399190534146ee9\com.google.android.gms.play-services-measurement-sdk-api-20.1.2\AndroidManifest.xml:26:22-76
+44    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+44-->[:com.google.android.gms.play-services-measurement-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8d6ecbe96ce7f293b79e654163ec6b0b\com.google.android.gms.play-services-measurement-20.1.2\AndroidManifest.xml:26:5-110
+44-->[:com.google.android.gms.play-services-measurement-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8d6ecbe96ce7f293b79e654163ec6b0b\com.google.android.gms.play-services-measurement-20.1.2\AndroidManifest.xml:26:22-107
+45
+46    <application
+46-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:3-83
+47        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+47-->[:androidx.core.core-1.2.0:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\4527d81fa1dab2c4adef56282f6f51b4\androidx.core.core-1.2.0\AndroidManifest.xml:24:18-86
+48        android:extractNativeLibs="true"
+48-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:27:9-41
+49        android:icon="@mipmap/app_icon"
+49-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:49-80
+50        android:label="@string/app_name" >
+50-->D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\launcher\src\main\AndroidManifest.xml:4:16-48
+51        <!--
+52         The MessagingUnityPlayerActivity is a class that extends
+53         UnityPlayerActivity to work around a known issue when receiving
+54         notification data payloads in the background.
+55        -->
+56        <activity
+56-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:36:9-53:20
+57            android:name="com.google.firebase.MessagingUnityPlayerActivity"
+57-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:37:13-76
+58            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+58-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:38:13-194
+59            android:exported="true"
+59-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:39:13-36
+60            android:hardwareAccelerated="false"
+60-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:40:13-48
+61            android:launchMode="singleTask"
+61-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:41:13-44
+62            android:resizeableActivity="false"
+62-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:42:13-47
+63            android:screenOrientation="portrait" >
+63-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:43:13-49
+64            <intent-filter>
+64-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:44:13-48:29
+65                <action android:name="android.intent.action.MAIN" />
+65-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:17-69
+65-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:45:25-66
+66
+67                <category android:name="android.intent.category.LAUNCHER" />
+67-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:17-77
+67-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:47:27-74
+68            </intent-filter>
+69
+70            <meta-data
+70-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:50:13-52:40
+71                android:name="unityplayer.UnityActivity"
+71-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:51:17-57
+72                android:value="true" />
+72-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:52:17-37
+73        </activity>
+74
+75        <service
+75-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:55:9-59:19
+76            android:name="com.google.firebase.messaging.MessageForwardingService"
+76-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:56:13-82
+77            android:exported="false"
+77-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:57:13-37
+78            android:permission="android.permission.BIND_JOB_SERVICE" >
+78-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:58:13-69
+79        </service>
+80
+81        <meta-data
+81-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:61:9-63:33
+82            android:name="unity.splash-mode"
+82-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:62:13-45
+83            android:value="0" />
+83-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:63:13-30
+84        <meta-data
+84-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:64:9-66:36
+85            android:name="unity.splash-enable"
+85-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:65:13-47
+86            android:value="True" />
+86-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:66:13-33
+87        <meta-data
+87-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:67:9-69:36
+88            android:name="unity.launch-fullscreen"
+88-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:68:13-51
+89            android:value="True" />
+89-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:69:13-33
+90        <meta-data
+90-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:70:9-72:37
+91            android:name="unity.allow-resizable-window"
+91-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:71:13-56
+92            android:value="False" />
+92-->[:unityLibrary] D:\Git Repositories\Disc\Disc\Library\Bee\Android\Prj\IL2CPP\Gradle\unityLibrary\build\intermediates\library_manifest\release\AndroidManifest.xml:72:13-34
+93
+94        <receiver
+94-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:31:9-38:20
+95            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+95-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:32:13-78
+96            android:exported="true"
+96-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:33:13-36
+97            android:permission="com.google.android.c2dm.permission.SEND" >
+97-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:34:13-73
+98            <intent-filter>
+98-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:35:13-37:29
+99                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+99-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:36:17-81
+99-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:36:25-78
+100            </intent-filter>
+101        </receiver>
+102        <!--
+103             FirebaseMessagingService performs security checks at runtime,
+104             but set to not exported to explicitly avoid allowing another app to call it.
+105        -->
+106        <service
+106-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:44:9-51:19
+107            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+107-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:45:13-82
+108            android:directBootAware="true"
+108-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:46:13-43
+109            android:exported="false" >
+109-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:47:13-37
+110            <intent-filter android:priority="-500" >
+110-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:48:13-50:29
+110-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:48:28-51
+111                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+111-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:49:17-78
+111-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:49:25-75
+112            </intent-filter>
+113        </service>
+114        <service
+114-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:52:9-58:19
+115            android:name="com.google.firebase.components.ComponentDiscoveryService"
+115-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:53:13-84
+116            android:directBootAware="true"
+116-->[:com.google.firebase.firebase-common-20.1.0:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\236e49b1280e645167c06a73d856db4f\com.google.firebase.firebase-common-20.1.0\AndroidManifest.xml:21:86-116
+117            android:exported="false" >
+117-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:54:13-37
+118            <meta-data
+118-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:55:13-57:85
+119                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+119-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:56:17-119
+120                android:value="com.google.firebase.components.ComponentRegistrar" />
+120-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:57:17-82
+121            <meta-data
+121-->[:com.google.firebase.firebase-installations-17.0.1:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d575652e0196f6e060dfc7efd05108d5\com.google.firebase.firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+122                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+122-->[:com.google.firebase.firebase-installations-17.0.1:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d575652e0196f6e060dfc7efd05108d5\com.google.firebase.firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+123                android:value="com.google.firebase.components.ComponentRegistrar" />
+123-->[:com.google.firebase.firebase-installations-17.0.1:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\d575652e0196f6e060dfc7efd05108d5\com.google.firebase.firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+124            <meta-data
+124-->[:com.google.firebase.firebase-datatransport-18.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61357f5a92ce9671f2fe596fa4d20ace\com.google.firebase.firebase-datatransport-18.1.2\AndroidManifest.xml:28:13-30:85
+125                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+125-->[:com.google.firebase.firebase-datatransport-18.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61357f5a92ce9671f2fe596fa4d20ace\com.google.firebase.firebase-datatransport-18.1.2\AndroidManifest.xml:29:17-115
+126                android:value="com.google.firebase.components.ComponentRegistrar" />
+126-->[:com.google.firebase.firebase-datatransport-18.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\61357f5a92ce9671f2fe596fa4d20ace\com.google.firebase.firebase-datatransport-18.1.2\AndroidManifest.xml:30:17-82
+127            <meta-data
+127-->[:com.google.android.gms.play-services-measurement-api-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3853f20c47bee9928d3b5f79b0b08ec0\com.google.android.gms.play-services-measurement-api-20.1.2\AndroidManifest.xml:31:13-33:85
+128                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+128-->[:com.google.android.gms.play-services-measurement-api-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3853f20c47bee9928d3b5f79b0b08ec0\com.google.android.gms.play-services-measurement-api-20.1.2\AndroidManifest.xml:32:17-139
+129                android:value="com.google.firebase.components.ComponentRegistrar" />
+129-->[:com.google.android.gms.play-services-measurement-api-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\3853f20c47bee9928d3b5f79b0b08ec0\com.google.android.gms.play-services-measurement-api-20.1.2\AndroidManifest.xml:33:17-82
+130        </service>
+131        <service
+131-->[:com.google.firebase.firebase-messaging-unity-8.10.1:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\0a52055a3836f172d0b5ffe1e24061bc\com.google.firebase.firebase-messaging-unity-8.10.1\AndroidManifest.xml:9:5-13:15
+132            android:name="com.google.firebase.messaging.cpp.ListenerService"
+132-->[:com.google.firebase.firebase-messaging-unity-8.10.1:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\0a52055a3836f172d0b5ffe1e24061bc\com.google.firebase.firebase-messaging-unity-8.10.1\AndroidManifest.xml:9:14-78
+133            android:exported="false" >
+133-->[:com.google.firebase.firebase-messaging-unity-8.10.1:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\0a52055a3836f172d0b5ffe1e24061bc\com.google.firebase.firebase-messaging-unity-8.10.1\AndroidManifest.xml:9:79-103
+134            <intent-filter>
+134-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:48:13-50:29
+135                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+135-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:49:17-78
+135-->[:com.google.firebase.firebase-messaging-23.0.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a711cef419e63519a4e828fb3fcab415\com.google.firebase.firebase-messaging-23.0.3\AndroidManifest.xml:49:25-75
+136            </intent-filter>
+137        </service>
+138        <service
+138-->[:com.google.firebase.firebase-messaging-unity-8.10.1:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\0a52055a3836f172d0b5ffe1e24061bc\com.google.firebase.firebase-messaging-unity-8.10.1\AndroidManifest.xml:14:5-124
+139            android:name="com.google.firebase.messaging.cpp.RegistrationIntentService"
+139-->[:com.google.firebase.firebase-messaging-unity-8.10.1:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\0a52055a3836f172d0b5ffe1e24061bc\com.google.firebase.firebase-messaging-unity-8.10.1\AndroidManifest.xml:14:14-88
+140            android:exported="false" />
+140-->[:com.google.firebase.firebase-messaging-unity-8.10.1:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\0a52055a3836f172d0b5ffe1e24061bc\com.google.firebase.firebase-messaging-unity-8.10.1\AndroidManifest.xml:14:89-113
+141
+142        <receiver
+142-->[:com.google.android.gms.play-services-measurement-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8d6ecbe96ce7f293b79e654163ec6b0b\com.google.android.gms.play-services-measurement-20.1.2\AndroidManifest.xml:29:9-33:20
+143            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+143-->[:com.google.android.gms.play-services-measurement-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8d6ecbe96ce7f293b79e654163ec6b0b\com.google.android.gms.play-services-measurement-20.1.2\AndroidManifest.xml:30:13-85
+144            android:enabled="true"
+144-->[:com.google.android.gms.play-services-measurement-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8d6ecbe96ce7f293b79e654163ec6b0b\com.google.android.gms.play-services-measurement-20.1.2\AndroidManifest.xml:31:13-35
+145            android:exported="false" >
+145-->[:com.google.android.gms.play-services-measurement-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8d6ecbe96ce7f293b79e654163ec6b0b\com.google.android.gms.play-services-measurement-20.1.2\AndroidManifest.xml:32:13-37
+146        </receiver>
+147
+148        <service
+148-->[:com.google.android.gms.play-services-measurement-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8d6ecbe96ce7f293b79e654163ec6b0b\com.google.android.gms.play-services-measurement-20.1.2\AndroidManifest.xml:35:9-38:40
+149            android:name="com.google.android.gms.measurement.AppMeasurementService"
+149-->[:com.google.android.gms.play-services-measurement-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8d6ecbe96ce7f293b79e654163ec6b0b\com.google.android.gms.play-services-measurement-20.1.2\AndroidManifest.xml:36:13-84
+150            android:enabled="true"
+150-->[:com.google.android.gms.play-services-measurement-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8d6ecbe96ce7f293b79e654163ec6b0b\com.google.android.gms.play-services-measurement-20.1.2\AndroidManifest.xml:37:13-35
+151            android:exported="false" />
+151-->[:com.google.android.gms.play-services-measurement-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8d6ecbe96ce7f293b79e654163ec6b0b\com.google.android.gms.play-services-measurement-20.1.2\AndroidManifest.xml:38:13-37
+152        <service
+152-->[:com.google.android.gms.play-services-measurement-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8d6ecbe96ce7f293b79e654163ec6b0b\com.google.android.gms.play-services-measurement-20.1.2\AndroidManifest.xml:39:9-43:72
+153            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+153-->[:com.google.android.gms.play-services-measurement-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8d6ecbe96ce7f293b79e654163ec6b0b\com.google.android.gms.play-services-measurement-20.1.2\AndroidManifest.xml:40:13-87
+154            android:enabled="true"
+154-->[:com.google.android.gms.play-services-measurement-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8d6ecbe96ce7f293b79e654163ec6b0b\com.google.android.gms.play-services-measurement-20.1.2\AndroidManifest.xml:41:13-35
+155            android:exported="false"
+155-->[:com.google.android.gms.play-services-measurement-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8d6ecbe96ce7f293b79e654163ec6b0b\com.google.android.gms.play-services-measurement-20.1.2\AndroidManifest.xml:42:13-37
+156            android:permission="android.permission.BIND_JOB_SERVICE" />
+156-->[:com.google.android.gms.play-services-measurement-20.1.2:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\8d6ecbe96ce7f293b79e654163ec6b0b\com.google.android.gms.play-services-measurement-20.1.2\AndroidManifest.xml:43:13-69
+157
+158        <provider
+158-->[:com.google.firebase.firebase-common-20.1.0:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\236e49b1280e645167c06a73d856db4f\com.google.firebase.firebase-common-20.1.0\AndroidManifest.xml:20:5-228
+159            android:name="com.google.firebase.provider.FirebaseInitProvider"
+159-->[:com.google.firebase.firebase-common-20.1.0:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\236e49b1280e645167c06a73d856db4f\com.google.firebase.firebase-common-20.1.0\AndroidManifest.xml:20:15-79
+160            android:authorities="com.PlayResume.TheDisc.firebaseinitprovider"
+160-->[:com.google.firebase.firebase-common-20.1.0:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\236e49b1280e645167c06a73d856db4f\com.google.firebase.firebase-common-20.1.0\AndroidManifest.xml:20:80-145
+161            android:directBootAware="true"
+161-->[:com.google.firebase.firebase-common-20.1.0:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\236e49b1280e645167c06a73d856db4f\com.google.firebase.firebase-common-20.1.0\AndroidManifest.xml:20:146-176
+162            android:exported="false"
+162-->[:com.google.firebase.firebase-common-20.1.0:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\236e49b1280e645167c06a73d856db4f\com.google.firebase.firebase-common-20.1.0\AndroidManifest.xml:20:177-201
+163            android:initOrder="100" />
+163-->[:com.google.firebase.firebase-common-20.1.0:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\236e49b1280e645167c06a73d856db4f\com.google.firebase.firebase-common-20.1.0\AndroidManifest.xml:20:202-225
+164
+165        <meta-data
+165-->[:com.google.android.gms.play-services-basement-18.0.0:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c158dbe6bad5056979dbf1ee0625408f\com.google.android.gms.play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+166            android:name="com.google.android.gms.version"
+166-->[:com.google.android.gms.play-services-basement-18.0.0:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c158dbe6bad5056979dbf1ee0625408f\com.google.android.gms.play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+167            android:value="@integer/google_play_services_version" />
+167-->[:com.google.android.gms.play-services-basement-18.0.0:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\c158dbe6bad5056979dbf1ee0625408f\com.google.android.gms.play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+168
+169        <activity
+169-->[:com.google.android.gms.play-services-base-18.0.1:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\bb6768f20d1de5ba02407f9183f06731\com.google.android.gms.play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+170            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+170-->[:com.google.android.gms.play-services-base-18.0.1:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\bb6768f20d1de5ba02407f9183f06731\com.google.android.gms.play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+171            android:exported="false"
+171-->[:com.google.android.gms.play-services-base-18.0.1:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\bb6768f20d1de5ba02407f9183f06731\com.google.android.gms.play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+172            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+172-->[:com.google.android.gms.play-services-base-18.0.1:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\bb6768f20d1de5ba02407f9183f06731\com.google.android.gms.play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+173
+174        <service
+174-->[:com.google.android.datatransport.transport-backend-cct-3.1.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a0579ecf3d6036a5e3a60f0109e7e384\com.google.android.datatransport.transport-backend-cct-3.1.3\AndroidManifest.xml:29:9-35:19
+175            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+175-->[:com.google.android.datatransport.transport-backend-cct-3.1.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a0579ecf3d6036a5e3a60f0109e7e384\com.google.android.datatransport.transport-backend-cct-3.1.3\AndroidManifest.xml:30:13-103
+176            android:exported="false" >
+176-->[:com.google.android.datatransport.transport-backend-cct-3.1.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a0579ecf3d6036a5e3a60f0109e7e384\com.google.android.datatransport.transport-backend-cct-3.1.3\AndroidManifest.xml:31:13-37
+177            <meta-data
+177-->[:com.google.android.datatransport.transport-backend-cct-3.1.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a0579ecf3d6036a5e3a60f0109e7e384\com.google.android.datatransport.transport-backend-cct-3.1.3\AndroidManifest.xml:32:13-34:39
+178                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+178-->[:com.google.android.datatransport.transport-backend-cct-3.1.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a0579ecf3d6036a5e3a60f0109e7e384\com.google.android.datatransport.transport-backend-cct-3.1.3\AndroidManifest.xml:33:17-94
+179                android:value="cct" />
+179-->[:com.google.android.datatransport.transport-backend-cct-3.1.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\a0579ecf3d6036a5e3a60f0109e7e384\com.google.android.datatransport.transport-backend-cct-3.1.3\AndroidManifest.xml:34:17-36
+180        </service>
+181        <service
+181-->[:com.google.android.datatransport.transport-runtime-3.1.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e49916710d523210684f76441f933678\com.google.android.datatransport.transport-runtime-3.1.3\AndroidManifest.xml:26:9-30:19
+182            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+182-->[:com.google.android.datatransport.transport-runtime-3.1.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e49916710d523210684f76441f933678\com.google.android.datatransport.transport-runtime-3.1.3\AndroidManifest.xml:27:13-117
+183            android:exported="false"
+183-->[:com.google.android.datatransport.transport-runtime-3.1.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e49916710d523210684f76441f933678\com.google.android.datatransport.transport-runtime-3.1.3\AndroidManifest.xml:28:13-37
+184            android:permission="android.permission.BIND_JOB_SERVICE" >
+184-->[:com.google.android.datatransport.transport-runtime-3.1.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e49916710d523210684f76441f933678\com.google.android.datatransport.transport-runtime-3.1.3\AndroidManifest.xml:29:13-69
+185        </service>
+186
+187        <receiver
+187-->[:com.google.android.datatransport.transport-runtime-3.1.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e49916710d523210684f76441f933678\com.google.android.datatransport.transport-runtime-3.1.3\AndroidManifest.xml:32:9-34:40
+188            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+188-->[:com.google.android.datatransport.transport-runtime-3.1.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e49916710d523210684f76441f933678\com.google.android.datatransport.transport-runtime-3.1.3\AndroidManifest.xml:33:13-132
+189            android:exported="false" />
+189-->[:com.google.android.datatransport.transport-runtime-3.1.3:] C:\Users\User\.gradle\caches\transforms-2\files-2.1\e49916710d523210684f76441f933678\com.google.android.datatransport.transport-runtime-3.1.3\AndroidManifest.xml:34:13-37
+190    </application>
+191
+192</manifest>

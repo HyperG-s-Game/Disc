@@ -1,0 +1,10 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id,@string/default_web_client_id">
+  <string name="gcm_defaultSenderId" translatable="false">209930526749</string>
+  <string name="google_storage_bucket" translatable="false">the-discs.appspot.com</string>
+  <string name="project_id" translatable="false">the-discs</string>
+  <string name="google_api_key" translatable="false">AIzaSyB99K3CoayWwHtySeCuQQSqaNlRJu6fLgE</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB99K3CoayWwHtySeCuQQSqaNlRJu6fLgE</string>
+  <string name="google_app_id" translatable="false">1:209930526749:android:c2a31be4410088398a26f4</string>
+  <string name="default_web_client_id" translatable="false">209930526749-l40418411l3hlqma9496gd74hbkieilk.apps.googleusercontent.com</string>
+</resources>

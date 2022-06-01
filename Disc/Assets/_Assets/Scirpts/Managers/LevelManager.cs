@@ -36,7 +36,9 @@ public class LevelManager : MonoBehaviour {
             }
 
         }
+        LevelLoader.showLevel = true;;
         Invoke(nameof(SpawnMoreLevel),0.1f);
+        
     }
     private void SpawnMoreLevel(){
         for (int i = 0; i < 10; i++){

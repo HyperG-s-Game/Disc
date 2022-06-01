@@ -25,6 +25,7 @@ namespace GamerWolf.Utils {
         
         [SerializeField] private Sprite[] loadingBarSpriteArray;
         [SerializeField] private SceneIndex currentLevel;
+        public static bool showLevel;
         public static LevelLoader instance {get;private set;}
         public static bool isReset{get;private set;}
         private void Awake(){
@@ -48,17 +49,10 @@ namespace GamerWolf.Utils {
         }
         
         
-        // private void Start(){
-        //     SwitchScene(currentLevel);
-        //     // CheckForReset();
-        // }
-        // private void CheckForReset(){
-        //     if(currentLevel == SceneIndex.GameScene){
-        //         isReset = true;
-        //     }else{
-        //         isReset = false;
-        //     }
-        // }
+        private void Start(){
+            PlayNextLevel();
+            
+        }
         
         public void PlayNextLevel(){
             // UpdateLevelData();
@@ -134,12 +128,15 @@ namespace GamerWolf.Utils {
             yield return new WaitForSeconds(0.5f);
             AsyncOperation operation = SceneManager.LoadSceneAsync((int)_sceneToLoad);
             // totalProgress = 0f;
-            while(!operation.isDone){
+            while(!operation.isDone && !showLevel){
                 // totalProgress = Mathf.Clamp01(operation.progress / 0.9f);
+                
                 yield return null;
                 
             }
+            
             loadingScreen.SetActive(false);
+            
             
         }
        

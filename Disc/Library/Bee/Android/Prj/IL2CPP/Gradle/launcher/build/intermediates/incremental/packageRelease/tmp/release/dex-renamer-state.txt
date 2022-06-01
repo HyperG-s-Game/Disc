@@ -1,0 +1,4 @@
+#Tue May 31 13:10:42 IST 2022
+base.0=D\:\\Git Repositories\\Disc\\Disc\\Library\\Bee\\Android\\Prj\\IL2CPP\\Gradle\\launcher\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

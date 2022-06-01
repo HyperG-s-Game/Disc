@@ -4,7 +4,6 @@ using System.Collections;
 using System.Collections.Generic;
 public class LevelVariations : MonoBehaviour ,IPooledObject {
     
-    [SerializeField] private float lifeTime = 5f;
     [SerializeField] private Transform newObstacleSpawnPoint;
     [SerializeField] private Vector3 offset;
     [ContextMenu("Set Up")]
@@ -25,6 +24,5 @@ public class LevelVariations : MonoBehaviour ,IPooledObject {
 
     public void OnObjectReuse(){
         gameObject.SetActive(true);
-        DestroyMySelfWithDelay(lifeTime);
     }
 }

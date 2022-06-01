@@ -22,8 +22,12 @@ namespace GamerWolf.Utils {
             virtualCamera = GetComponent<CinemachineVirtualCamera>();
         }
         #endregion
-
+        
         [ContextMenu("Shake Camera")]
+        public void Shake(){
+            Shake(propertiensSO.intensity,propertiensSO.time);
+        }
+
         public void Shake(float intensity,float time){
             CinemachineBasicMultiChannelPerlin cinemachineBasicMultiChannelPerlin = virtualCamera.GetCinemachineComponent<CinemachineBasicMultiChannelPerlin>();
             cinemachineBasicMultiChannelPerlin.m_AmplitudeGain = intensity;
